@@ -12,4 +12,8 @@ public class SearchTests {
         open("https://www.google.com/");
         $("[name=q]").setValue("selenide").pressEnter();
     }
+
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
 }
